@@ -6,7 +6,7 @@ import kotlinx.coroutines.delay
 
 suspend fun main() {
 	//TODO secure the token!!!
-	val client = Kord("HEyMUsUGoWA38Kf-2vw2NonoYELNntN5")
+	val client = Kord("ODc1NzQ1Mjg4MDU1MjkxOTM0.YRZ_Ww.a8Yn2igNVW_AXkrTiZ8h7_fISxM")
 	val pingPong = ReactionEmoji.Unicode("\uD83C\uDFD3")
 
 	client.on<MessageCreateEvent> {
